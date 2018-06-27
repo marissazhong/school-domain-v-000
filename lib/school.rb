@@ -22,6 +22,8 @@ class School
     puts @roster[grade]
   end
 
+  def sort
+    @roster.each {|key, value| value = value.sort} 
 end
 
 school = School.new("My school")
