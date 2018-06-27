@@ -17,7 +17,7 @@ class School
   end
 
   def roster
-    puts roster
+    puts @roster
   end
 
 end
