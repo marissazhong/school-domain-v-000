@@ -5,7 +5,6 @@ class School
     @roster = {}
   end
 
-
   def add_student(name, grade)
     if @roster.has_key? grade
       @roster[grade].push(name)
@@ -32,6 +31,7 @@ class School
 end
 
 school = School.new("My school")
+school.roster
 school.roster.length
 # school.add_student("Zach Morris",9)
 # school.add_student("AC Slater", 9)
