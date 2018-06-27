@@ -20,6 +20,10 @@ class School
     puts @roster
   end
 
+  def grade(grade)
+    puts @roster[grade]
+  end
+
 end
 
 school = School.new("My school")
