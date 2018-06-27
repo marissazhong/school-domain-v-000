@@ -26,7 +26,7 @@ class School
     @roster.each {|key, value|
       @roster[key] = value.sort
     }
-    puts @roster
+    @roster
   end
 end
 
