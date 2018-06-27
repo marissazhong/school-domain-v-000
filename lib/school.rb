@@ -2,7 +2,7 @@
 class School
   def initialize(name)
     @name = name
-    @roster = {}
+    @roster = Hash.new
   end
 
   def add_student(name, grade)
