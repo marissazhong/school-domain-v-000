@@ -23,9 +23,9 @@ class School
   end
 
   def sort
-    @roster.each {|key, value| 
+    @roster.each {|key, value|
       value = value.sort
-      puts value
+      puts "#{key}, #{value}"
     }
     puts @roster
   end
