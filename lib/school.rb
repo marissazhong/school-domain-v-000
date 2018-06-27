@@ -23,7 +23,10 @@ class School
   end
 
   def sort
-    @roster.each {|key, value| value = value.sort}
+    @roster.each {|key, value| 
+      value = value.sort
+      puts value
+    }
     puts @roster
   end
 
