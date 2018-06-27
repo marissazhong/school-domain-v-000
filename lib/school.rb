@@ -25,7 +25,6 @@ class School
   def sort
     @roster.each {|key, value|
       @roster[key] = value.sort
-      puts "#{key}, #{value}"
     }
     puts @roster
   end
