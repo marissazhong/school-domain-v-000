@@ -21,3 +21,6 @@ class School
   end
 
 end
+
+school = School.new("My school")
+school.add_student("Zach Morris",9)
