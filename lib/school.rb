@@ -27,7 +27,6 @@ class School
     }
     puts @roster
   end
-
 end
 
 # school = School.new("My school")
