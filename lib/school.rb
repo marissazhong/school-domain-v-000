@@ -23,7 +23,9 @@ class School
   end
 
   def sort
-    @roster.each {|key, value| value = value.sort} 
+    @roster.each {|key, value| value = value.sort}
+  end
+  
 end
 
 school = School.new("My school")
