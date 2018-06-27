@@ -16,9 +16,9 @@ class School
     end
   end
 
-#  def roster
-#    puts roster
-#  end
+  def roster
+    puts roster
+  end
 
 end
 
