@@ -19,7 +19,7 @@ class School
   end
 
   def grade(grade)
-    return @roster[grade]
+    puts @roster[grade]
   end
 
 end
