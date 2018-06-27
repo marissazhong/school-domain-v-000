@@ -15,7 +15,7 @@ class School
   end
 
   def roster
-    puts @roster
+    @roster
   end
 
   def grade(grade)
