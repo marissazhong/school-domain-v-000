@@ -28,5 +28,6 @@ end
 
 school = School.new("My school")
 school.add_student("Zach Morris",9)
+school.add_student("AC Slater", 9)
 school.roster
 school.grade(9)
