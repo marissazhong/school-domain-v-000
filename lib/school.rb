@@ -32,7 +32,7 @@ end
 
 school = School.new("My school")
 school.roster
-#school.roster.length
+school.roster.length
 # school.add_student("Zach Morris",9)
 # school.add_student("AC Slater", 9)
 # school.add_student("Homer Simpson", 9)
