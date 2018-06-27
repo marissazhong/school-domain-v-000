@@ -4,15 +4,15 @@ class School
     @name = name
   end
 
-  roster = {}
+  @roster = {}
 
   def add_student(name, grade)
-    if roster.has_key? grade
+    if @roster.has_key? grade
       puts "this grade already exists"
-      roster[grade].push(name)
+      @roster[grade].push(name)
     else
       puts "this grade does not yet exist"
-      roster[grade] = [name]
+      @roster[grade] = [name]
     end
   end
 
