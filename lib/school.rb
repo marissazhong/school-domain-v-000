@@ -25,7 +25,7 @@ class School
   def sort
     @roster.each {|key, value| value = value.sort}
   end
-  
+
 end
 
 school = School.new("My school")
@@ -36,4 +36,4 @@ school.add_student("Jeff Baird", 10)
 school.add_student("Avi Flombaum", 10)
 school.add_student("Blake Johnson", 7)
 school.roster
-school.grade(9)
+school.sort
